@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ResponsivePage />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ResponsivePage from './components/ResponsivePage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ResponsivePage
   }
 }
 </script>
